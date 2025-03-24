@@ -116,3 +116,44 @@
 </ol>
 
 <h2>🧪 Testes Automatizados</h2>
+
+<ul>
+  <li>
+    Testes unitários cobrem a camada de Application e regras de negócio críticas.
+  </li>
+  <li>
+    xUnit é utilizado para os testes.
+  </li>
+  <li>
+    A cobertura de código prioriza a lógica de negócio e casos de uso principais.
+  </li>
+  <li>
+    Os testes podem ser executados através do Visual Studio ou usando o comando dotnet test na CLI.
+  </li>
+</ul>
+
+<h2>📂 Estrutura de Pastas</h2>
+<p>
+  HelpStop/
+├── Domain/
+│   ├── Entities/
+│   └── Interfaces/
+├── Application/
+│   ├── UseCases/
+│   └── Services/
+├── Infrastructure/
+│   ├── Data/
+│   ├── Repositories/
+│   └── Services/
+├── API/
+│   ├── Controllers/
+│   └── Program.cs
+├── Tests/
+└── HelpStop.sln
+</p>
+
+<h2>👨‍💻 Autores</h2>
+<p>Hugo Miranda - ??????? - [HugoM1randa](https://github.com/HugoM1randa)</p>
+
+<h2>📜 Licença</h2>
+<p>Este projeto está sob a licença MIT.</p>
