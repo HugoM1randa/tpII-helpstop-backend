@@ -94,3 +94,25 @@
 
 <h2>🔧 Como Rodar o Projeto</h2>
 
+<ol>
+  <li>
+    Clone o repositório.
+  </li>
+  <li>
+    Abra a solução no Visual Studio.
+  </li>
+  <li>
+    Configure a string de conexão no appsettings.json.
+  </li>
+  <li>
+    Execute Update-Database no Package Manager Console para aplicar as migrations.
+  </li>
+  <li>
+    Execute a aplicação (F5 ou dotnet run).
+  </li>
+  <li>
+    Acesse a documentação Swagger em /swagger para testar as rotas da API.
+  </li>
+</ol>
+
+<h2>🧪 Testes Automatizados</h2>
