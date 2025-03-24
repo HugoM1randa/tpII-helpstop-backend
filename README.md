@@ -42,8 +42,55 @@
     <b>API:</b> Camada de apresentação, responsável pela interação com o usuário (API RESTful).
   </li>
 </ul>
-<img src="" />
-
+![DiagramaSimplificado](https://github.com/user-attachments/assets/8ac11aaa-8c13-4a30-9771-24ab1ff6aeff)
 
 <h2>⚙️ Princípios SOLID Aplicados</h2>
+
+<ul>
+  <li>
+    <b>S -</b> Single Responsibility Principle: Cada classe possui uma única responsabilidade. Ex: UserService lida apenas com a lógica de usuários.
+  </li>
+  <li>
+    <b>O -</b> Open/Closed Principle: O sistema é aberto para extensão, mas fechado para modificação. Ex: Interfaces como IUserRepository permitem novas implementações sem alterar o código existente.
+  </li>
+  <li>
+    <b>L -</b> Liskov Substitution Principle: Subclasses podem substituir suas superclasses sem afetar o comportamento do sistema. Ex: Diferentes implementações de serviços de notificação podem ser utilizadas sem alterar a camada de aplicação.
+  </li>
+  <li>
+    <b>I -</b> Interface Segregation Principle: Interfaces específicas são preferíveis a interfaces genéricas. Ex: Interfaces como IUserService, IAttendanceService, etc.
+  </li>
+  <li>
+    <b>D -</b> Dependency Inversion Principle: Módulos de alto nível dependem de abstrações, não de implementações concretas. Ex: A camada de aplicação depende de interfaces, não diretamente do Entity Framework Core.
+  </li>
+</ul>
+
+<h2>🧩 Tecnologias e Ferramentas</h2>
+<ul>
+  <li>
+    <b>Linguagem:</b> C# (.NET 6)
+  </li>
+  <li>
+    <b>Banco de Dados:</b> SQL Server
+  </li>
+  <li>
+    <b>Ambiente:</b> Azure App Services
+  </li>
+  <li>
+    <b>IDE:</b> Visual Studio / VS Code
+  </li>
+  <li>
+    <b>ORM:</b> Entity Framework Core
+  </li>
+  <li>
+    <b>Testes:</b> xUnit
+  </li>
+  <li>
+    <b>Controle de Versão:</b> Git + GitHub
+  </li>
+  <li>
+    <b>API:</b> ASP.NET Core Web API
+  </li>
+</ul>
+
+<h2>🔧 Como Rodar o Projeto</h2>
 
