@@ -153,7 +153,7 @@
 </p>
 
 <h2>👨‍💻 Autores</h2>
-<p>Hugo Miranda - ??????? - [HugoM1randa](https://github.com/HugoM1randa)</p>
+<p>Hugo Miranda - Back End - [HugoM1randa](https://github.com/HugoM1randa)</p>
 
 <h2>📜 Licença</h2>
 <p>Este projeto está sob a licença MIT.</p>
