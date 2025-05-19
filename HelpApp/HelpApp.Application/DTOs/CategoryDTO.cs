@@ -2,7 +2,7 @@
 
 namespace HelpApp.Application.DTOs
 {
-    public class CategoryDTO
+    public class ProductDTO
     {
         public int Id { get; set; }
 
